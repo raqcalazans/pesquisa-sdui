@@ -1,11 +1,8 @@
 # Brasileirão App - SDUI
 
-<img width="200" alt="AppIcon_brasileirao" src="https://github.com/user-attachments/assets/6b64d4d1-5b27-4497-8d77-d84933691bf7" />
-
 ![Swift Version](https://img.shields.io/badge/Swift-5.5%2B-orange)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2013%2B-lightgrey)
 ![Architecture](https://img.shields.io/badge/Architecture-MVVM-blue)
-[![CI Build & Unit Test](https://github.com/SelecaoGlobocom/raquel-calazans/actions/workflows/ci.yml/badge.svg)](https://github.com/SelecaoGlobocom/raquel-calazans/actions/workflows/ci.yml)
 
 Este repositório contém a implementação de um aplicativo para acompanhamento de jogos de futebol, consistindo em uma API backend e um aplicativo cliente para iOS. A solução foi desenvolvida com foco em arquitetura moderna, escalabilidade e qualidade de código.
 
@@ -27,7 +24,7 @@ Para informações detalhadas sobre a arquitetura, stack de tecnologias, instru�
 
 ### Resultados
 
-O agrupamento dos jogos depende de como os dados chegam. Ou seja, por status (ENCERRADOS, AO VIVO, AGENDADOS), ou por rodadas (1ª RODADA, 2ª RODADA, 3ª RODADA), ou de qualquer outra forma, bastantando ajustar o JSON.
+O agrupamento dos jogos depende de como os dados chegam. Ou seja, por status (ENCERRADOS, AO VIVO, AGENDADOS), ou por rodadas (1ª RODADA, 2ª RODADA, 3ª RODADA), ou de qualquer outra forma, bastando ajustar o JSON.
 
 | Por status | Por rodadas |
 | :---: | :----: |
